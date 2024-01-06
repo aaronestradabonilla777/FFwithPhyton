@@ -27,7 +27,7 @@ def esta_vivo(self):
     return self.__vida > 0
 
 #def morir es para que el personaje muera
-def morir(self):
+def __morir(self):
     self.__vida = 0
     print("El personaje ha muerto")
 
@@ -43,11 +43,11 @@ def atacar(self, enemigo):
     if enemigo.esta_vivo():
        print("La vida de", enemigo.__nombre, "es", enemigo.__vida)
     else:
-        enemigo.morir()
+        enemigo.__morir()
 
 
 mi_personaje = Personaje("Arthur", 10, 100, 5, 5)
-
 mi_enemigo = Personaje("Mordred", 8, 100, 5, 3)
 
 
+mi_personaje.atacar(mi_enemigo)
