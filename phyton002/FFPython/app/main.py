@@ -9,6 +9,16 @@ class Personaje :
     destreza = 8
     defensa = 12
 
+#self es un argumento que hace referencia al objeto que se está creando
+def_init_(self, nombre, fuerza, vida, inteligencia, destreza, defensa):
+self.nombre = nombre
+self.fuerza = fuerza
+self.vida = vida
+self.inteligencia = inteligencia
+self.destreza = destreza
+self.defensa = defensa
+
+
 
 mi_personaje = Personaje()
 print("El nombre del personaje es", mi_personaje.nombre)
