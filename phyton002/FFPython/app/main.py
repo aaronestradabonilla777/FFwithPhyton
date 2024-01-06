@@ -49,5 +49,8 @@ def atacar(self, enemigo):
 mi_personaje = Personaje("Arthur", 10, 100, 5, 5)
 mi_enemigo = Personaje("Mordred", 8, 100, 5, 3)
 
+mi_personaje.atributos()
 
-mi_personaje.atacar(mi_enemigo)
+mi_enemigo.atributos() 
+
+
