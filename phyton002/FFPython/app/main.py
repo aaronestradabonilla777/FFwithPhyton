@@ -1,29 +1,18 @@
-def main():
-    print("Hola, mundo!")
 
-class Personaje :
-    nombre = "Default"
-    fuerza = 0
-    vida = 0
-    inteligencia = 0
-    destreza = 0
-    defensa = 0
+class Personaje:
+    def __init__(self, nombre, fuerza, vida, inteligencia, defensa):
+        self.nombre = nombre
+        self.fuerza = fuerza
+        self.vida = vida
+        self.inteligencia = inteligencia
+        self.defensa = defensa
 
-#self es un argumento que hace referencia al objeto que se está creando
-def_init_(self, nombre, fuerza, vida, inteligencia, destreza, defensa):
-self.nombre = nombre
-self.fuerza = fuerza
-self.vida = vida
-self.inteligencia = inteligencia
-self.destreza = destreza
-self.defensa = defensa
+    def atributos(self):
+        print(self.nombre, ":", sep="")
+        print("Fuerza:", self.fuerza)
+        print("Vida:", self.vida)
+        print("Inteligencia:", self.inteligencia)
+        print("Defensa:", self.defensa)
 
-
-
-mi_personaje = Personaje("Arthur", 10, 100, 5, 10, 5")
-print("El nombre del personaje es", mi_personaje.nombre)
-print("La fuerza del personaje es", mi_personaje.fuerza)
-print("La vida del personaje es", mi_personaje.vida)
-print("La inteligencia del personaje es", mi_personaje.inteligencia)
-print("La destreza del personaje es", mi_personaje.destreza)
-print("La defensa del personaje es", mi_personaje.defensa)
+mi_personaje = Personaje("Arthur", 10, 100, 5, 5)
+mi_personaje.atributos()
