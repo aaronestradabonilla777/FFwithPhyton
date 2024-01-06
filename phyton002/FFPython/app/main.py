@@ -2,12 +2,12 @@ def main():
     print("Hola, mundo!")
 
 class Personaje :
-    nombre = "Arthur"
-    fuerza = 10
-    vida = 100
-    inteligencia = 16
-    destreza = 8
-    defensa = 12
+    nombre = "Default"
+    fuerza = 0
+    vida = 0
+    inteligencia = 0
+    destreza = 0
+    defensa = 0
 
 #self es un argumento que hace referencia al objeto que se está creando
 def_init_(self, nombre, fuerza, vida, inteligencia, destreza, defensa):
@@ -20,7 +20,7 @@ self.defensa = defensa
 
 
 
-mi_personaje = Personaje()
+mi_personaje = Personaje("Arthur", 10, 100, 5, 10, 5")
 print("El nombre del personaje es", mi_personaje.nombre)
 print("La fuerza del personaje es", mi_personaje.fuerza)
 print("La vida del personaje es", mi_personaje.vida)
