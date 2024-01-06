@@ -1,2 +1,1 @@
-
- <a href="https://ibb.co/4fvwygz"><img src="https://i.pximg.net/img-master/img/2020/07/07/09/20/57/82810942_p0_master1200.jpg" alt="FFIX" border="0"></a>
+<a href="https://ibb.co/sCjQf79"><img src="https://i.ibb.co/m0Jtjp5/82810942-p0-master1200.jpg" alt="82810942-p0-master1200" border="0"></a>
