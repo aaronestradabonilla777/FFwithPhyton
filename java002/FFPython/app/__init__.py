@@ -1,0 +1,1 @@
+# Este archivo está intencionalmente en blanco para indicar a Python que 'app' es un paquete.
